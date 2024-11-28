@@ -21,7 +21,10 @@ DATABASES = {
 }
 
 ```
-4. Run ```pip install -r requirements.txt```
-5. Run ```python manage.py runserver``` to start the app locally
-6. Edit the Database config in settings.py starting at line 90 for production database, make sure to use ENV variables as well
+4. Install python related dependencies ```pip install -r requirements.txt```
+5. Install website frontend dependencies ```npm --prefix website/frontend install```
+6. Install root script dependencies ```npm install```
+7. Run ```npm run build``` to build all static files
+8. Run ```npm run dev``` 
+9. Edit the Database config in settings.py starting at line 90 for production database, make sure to use ENV variables as well
 
