@@ -20,10 +20,9 @@ DATABASES = {
 }
 
 ```
-3. Install python related dependencies ```pip install -r requirements.txt```
-4. Install website frontend dependencies ```npm --prefix website/frontend install```
-5. Install root script dependencies ```npm install```
-6. Run ```npm run build``` to build all static files
-7. Run ```npm run dev``` 
-8. Edit the Database config in settings.py starting at line 90 for production database, make sure to use ENV variables as well
+3. Install all Python and Node related dependencies ```pip install -r requirements.txt```, ```npm --prefix website/frontend install```, ```npm install```
+4. Build all JavaScript and static files ```npm run build```
+5. Migrate your local database ```python manage.py migrate```
+6. Start on port 8000 ```npm run dev``` 
+7. Edit the Database config in settings.py starting at line 90 for production database, make sure to use ENV variables as well
 
