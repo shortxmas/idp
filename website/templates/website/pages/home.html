@@ -1,0 +1,8 @@
+{% extends "website/base.html" %} 
+{% load static %} 
+{% block title %} Home Page {% endblock %} 
+
+{% block content %}
+<div id="page-root"></div>
+<script src="{% static 'website/dist/pages/Index.js' %}"></script>
+{% endblock %}

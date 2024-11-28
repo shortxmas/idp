@@ -15,4 +15,10 @@ env.bak/
 venv.bak/ 
 
 local_settings.py
-static
+
+/static/       
+!*/static/   
+
+styles.css
+node_modules
+dist

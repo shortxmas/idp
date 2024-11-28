@@ -1,0 +1,16 @@
+{
+  "name": "idp",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm --prefix website/frontend run dev\" \"python manage.py runserver\"",
+    "build": "npm --prefix website/frontend run build && python manage.py collectstatic --noinput"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
