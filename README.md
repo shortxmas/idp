@@ -3,7 +3,7 @@
 
 ## Get Started
 
-1. Create and activate a project virtual environment for Python https://flask.palletsprojects.com/en/stable/installation/#virtual-environments
+1. Create and activate a project virtual environment for Python ```python -m venv venv```
 2. Create local_settings.py file in core and add local development configuration
 ```
 from pathlib import Path
